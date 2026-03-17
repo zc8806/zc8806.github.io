@@ -1,0 +1,18 @@
+  <!DOCTYPE html>
+  <html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tesla 授权跳转中...</title>
+    <style>
+      body { font-family: monospace; background: #1b2636; color: #e2e8f0;
+             display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+      p { font-size: 18px; color: #94a3b8; }
+    </style>
+  </head>
+  <body>
+    <p>⏳ 正在跳转到本地应用...</p>
+    <script>
+      window.location.href = 'http://localhost:8085/callback' + window.location.search;
+    </script>
+  </body>
+  </html>
